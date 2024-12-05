@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "ESNext",  // To support ES module imports
+      "moduleResolution": "node",
+      "strict": true,
+      "esModuleInterop": true,  // Allows default import from non-ES module
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*", "tests/**/*"], // Include both your source and test files
+    "exclude": ["node_modules"]
+  }
+  
